@@ -1,3 +1,7 @@
+@import url("./bounce.css");
+
+
+
 body {
   font-family: "Playpen Sans", sans-serif;
 
@@ -72,3 +76,23 @@ ul li a:hover{
   background-color: #111111;
   color: #fdb927;
 }
+
+
+
+#nyan-cat {
+  width: max(9vw, 9vh);
+  height: max(5vw, 5vh);
+  animation: bounce 2200s infinite linear;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  scale: 1;
+  z-index: 50;
+}
+
+#nyan-cat:hover {
+  animation-play-state: paused;
+}
+
