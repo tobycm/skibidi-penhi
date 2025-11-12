@@ -1,5 +1,4 @@
-body 
-{
+body {
   background-color: #191b41;
   color: #fdb927;
   text-align: center;
@@ -9,12 +8,12 @@ img {
   height: auto;
 }
 div {
-   line-height: 0;
-   
+  line-height: 0;
+
   -webkit-column-count: 4;
-  -webkit-column-gap:   5px;
-  -moz-column-count:    4;
-  -moz-column-gap:      5px;
-  column-count:         4;
-  column-gap:           5px;  
+  -webkit-column-gap: 5px;
+  -moz-column-count: 4;
+  -moz-column-gap: 5px;
+  column-count: 4;
+  column-gap: 5px;
 }

@@ -1,7 +1,5 @@
 @import url("./bounce.css");
 
-
-
 body {
   font-family: "Playpen Sans", sans-serif;
 
@@ -16,8 +14,7 @@ body {
 
   font-size: x-large;
 
-  background-image: url(./images/sparkleeee.png) ;
-  
+  background-image: url(./images/sparkleeee.png);
 }
 
 #projects {
@@ -54,7 +51,6 @@ a {
   color: #fdb927;
 }
 
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -70,14 +66,12 @@ ul li a {
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none ;
+  text-decoration: none;
 }
-ul li a:hover{
+ul li a:hover {
   background-color: #111111;
   color: #fdb927;
 }
-
-
 
 #nyan-cat {
   width: max(9vw, 9vh);
@@ -95,4 +89,3 @@ ul li a:hover{
 #nyan-cat:hover {
   animation-play-state: paused;
 }
-
